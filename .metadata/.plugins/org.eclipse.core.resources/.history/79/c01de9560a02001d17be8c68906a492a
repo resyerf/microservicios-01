@@ -1,0 +1,8 @@
+package com.moto.service.servicios;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MotoService {
+
+}

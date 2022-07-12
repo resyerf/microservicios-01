@@ -1,0 +1,8 @@
+package com.moto.service.controlador;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/moto")
+public class MotoController {
+
+}

@@ -1,0 +1,30 @@
+package com.carro.service.servicios;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.carro.service.entidades.Carro;
+import com.carro.service.repositorio.CarroRepository;
+import com.usuario.service.entidades.Usuario;
+
+@Service
+public class CarroService {
+
+	@Autowired
+	private CarroRepository carroRepository;
+	
+	public List<Carro> getAll() {
+		return usuarioRepository.findAll();
+	}
+
+	public Carro getUsuarioById(int id) {
+		return usuarioRepository.findById(id).orElse(null);
+	}
+
+	public Carro save(Carro usuario) {
+		Carro nuevoUsuario = usuarioRepository.save(usuario);
+		return nuevoUsuario;
+	}
+}
