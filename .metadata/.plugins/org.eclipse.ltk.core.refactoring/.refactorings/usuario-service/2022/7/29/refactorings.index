@@ -1,3 +1,4 @@
 1657658903379	Rename package 'com.usuario.service.feign'
 1657659261533	Encapsulate field 'usuarioId'
 1657659302670	Encapsulate field 'usuarioId'
+1657668405026	Rename resource 'application.properties'
