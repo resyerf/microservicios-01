@@ -17,4 +17,5 @@
 <item elementID="=config-service/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657644642917_2" label="Window Working Set" name="Aggregate for window 1657644642917"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657812230519_3" label="Window Working Set" name="Aggregate for window 1657812230519"/>
 </workingSetManager>
